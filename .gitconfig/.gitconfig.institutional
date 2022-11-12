@@ -1,0 +1,5 @@
+[user]
+  name = key_owner_fullname_here
+  email = email_here
+  signingkey = key_id_here 
+

@@ -1,0 +1,10 @@
+[commit]
+  gpgSign = true
+
+[includeIf "gitdir:~/Documents/Github/Personal/"]
+  path = ~/.gitconfig.personal
+
+[includeIf "gitdir:~/Documents/Github/Institutional/"]
+  path = ~/.gitconfig.institutional
+[alias]
+	cam = commit -am
